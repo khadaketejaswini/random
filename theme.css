@@ -1,0 +1,57 @@
+body
+{
+    
+    background-image: linear-gradient(to top, coral, lightyellow);
+}
+
+.nav
+{
+    background-color: lightyellow;
+
+}
+
+.nav-item
+{
+    display: inline;
+    font-family: "Arial Black";
+    font-style: bold;
+    font-size: 40px;
+    padding: 20px;
+ 
+}
+
+a{
+    color: orange;
+
+}
+
+@keyframes example{
+    from{background-color:Red; color:gold; }
+    to{background-color: gold; color: red;}
+}
+
+
+.welcome-text
+{
+    font-family: "Arial Black";
+    font-style: bold;
+    font-size: 20px;
+    padding: 20px;
+    animation-name: example;
+    animation-duration: 1s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+}
+
+p
+{
+    font-family: "comic sans ms";
+    color: blueviolet;
+
+}
+
+h1
+{
+    font-family: "Arial Black";
+    color: purple;
+}
